@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
 <body>
     <header>
@@ -12,6 +13,22 @@
         </a>
         <h1>ცხოველების მაღაზია</h1>
     </header>
-    
+
+    <section id="contact-me">
+        <h2>დაგვიკავშირდით!</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">სახელი:</label>
+            <input type="text" id="name" name="name" placeholder="სახელი" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder=" email" required>
+
+            <label for="message">ტექსტი:</label>
+            <textarea id="message" name="message" placeholder="მოთხოვნა" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
 </body>
 </html>
